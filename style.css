@@ -219,9 +219,10 @@ button{
     height:25rem;
     /* font-size:px; */
     font-family: sans-serif;
-    /* display:flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    /* align-items: center; */
 }
 .footer p{
     font-size:18px;
@@ -283,3 +284,9 @@ button{
     background-size: 80%;
     background-position: 50px 40px;
 }
+/* .foot_out{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
